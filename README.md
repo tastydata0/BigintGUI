@@ -3,6 +3,8 @@
 
 Для успешной сборки нужно иметь библиотеку `libBigint`, поместив `.so` файл в `libs/Bigint`
 
+Поддерживает работу с числами до `1,048,576` цифр с учётом знака "-". При желании это число можно учеличить в `main.qml`.
+
 ![image](https://github.com/tastydata0/BigintGUI/assets/76962395/2afd0a56-49e3-494b-940e-331a89b623bc)
 ![image](https://github.com/tastydata0/BigintGUI/assets/76962395/ad4e32bf-129b-463f-b0df-4ee29cca1d0e)
 ![image](https://github.com/tastydata0/BigintGUI/assets/76962395/4c3ffdc3-236b-466b-9ff5-43e01f0d9010)
