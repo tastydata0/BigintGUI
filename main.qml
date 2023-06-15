@@ -29,6 +29,8 @@ Window {
         TextField {
             id: firstOperandTextField
 
+            maximumLength: 1048576
+
             padding: 8
             font.pointSize: 12
 
@@ -43,6 +45,8 @@ Window {
 
         TextField {
             id: secondOperandTextField
+
+            maximumLength: 1048576
 
             padding: 8
             font.pointSize: 12
@@ -101,6 +105,8 @@ Window {
 
             padding: 8
             font.pointSize: 12
+
+            maximumLength: 1048577
 
             anchors.leftMargin: 8
             anchors.rightMargin: 8
